@@ -1,0 +1,83 @@
+.dropdown {
+    float: right;
+   
+}
+
+/* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn {
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    height: 60px;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    width: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 60px;
+    height: auto;
+    right: 1%;
+    text-align: left;
+    align-content: flex-start;
+   
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 15px 35px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    color: #57a7ff;
+    font-size: 12px;
+}
+
+.dropdown-content .select-a {
+    float: none;
+    color: black;
+    padding: 15px 35px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    color: #57a7ff;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #fff6dc;
+}
+.dropdown-content .select-a:hover {
+    background-color: inherit;
+    color: #57a7ff;
+    background-color: #fff6dc;
+}
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+.dropdown:hover .dropbtn {
+    background-color: inherit;
+    color: white;
+    height: 60px;
+}
+
+/* Add a grey background to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: inherit;
+    color: #57a7ff;
+}
+
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+    display: block;
+}

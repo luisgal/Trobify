@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="34" viewBox="0 0 128 34">
+    <g fill="none" fill-rule="evenodd">
+        <rect width="126" height="32" x="1" y="1" stroke="#FFF" stroke-width="2" rx="16"/>
+        <text fill="#FFF" font-family="CenturyGothicPro, Century Gothic Pro" font-size="14">
+            <tspan x="39.731" y="17">Limpiar</tspan>
+        </text>
+    </g>
+</svg>

@@ -1,0 +1,196 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27-nov-2019, 15:08:23
+    Author     : lya5
+*/
+
+:root {
+    --negro: #000000;
+    --blanco: #ffffff;
+    --soft-blue: #57a7ff;
+    --brown-grey: #a0a0a0;
+    --brownish-grey: #757575;
+    --light-salmon: #ff9898;
+    --cloudy-blue: #bbbdbf;
+    --red: #f00000;
+    --orange: #2ba3ff;
+    --greyish-brown: #3e3e3e;
+    --eggshell: #e7ffdb;
+    --light-peach: #ffd1b1;
+    --very-light-pink: #ededed;
+    --beige: #f1da97;
+    --apricot: #f1bb71;
+    --cloudy-blue: #b0d6da;
+    --bluey-grey: #7fa1c4;
+    --light-grey-blue: #8fbdcd;
+    --beige: #f8d692;
+    --squash: #f3a606;
+    --yellow-brown: #c18e00;
+    --army-green: #4f5819;
+    --light-grey-green: #a9d096;
+    --nasty-green: #69bd3f;
+    --grapefruit: #e56868;
+    --pinkish-grey: #daa3a3;
+    --dark-salmon: #c87361;
+    --black-20: rgba(0, 0, 0, 0.2);
+    --sage-green: #89b176;
+    --black-54: rgba(0, 0, 0, 0.54);
+    --pumpkin: #f07900;
+    --pale: #ffd3d3;
+    --brown-grey: #b2b2b2;
+    --brown-grey: #919191;
+    --kermit-green: #3ebd00;
+    --very-light-pink-two: #d0d0d0;
+    --eggshell-two: #fff6dc;
+    --dark-sky-blue: #26b9ff;
+    --true-green: #00b502;
+    --brown-grey-two: #979797;
+}
+
+body { font-family: century-gothic, sans-serif;}
+
+.set_bg {
+    width: 1440px;
+    height: 1050px;
+    object-fit: contain;
+    padding: 70px 0;
+}
+
+.Rectangle {
+    min-width: 25%;
+    max-width: 45%;
+    min-height: 50%;
+    max-height: 70%;
+    width: auto;
+    height: auto;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.5);
+    background-color: var(--blanco);
+    display: block;
+    float: none;
+    font-size: 18px;
+    text-align: center;    
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+
+}
+
+
+
+
+.logo_set {
+    width: 86px;
+    height: 110px;
+    object-fit: contain;
+}
+
+.Usuario {
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--negro);
+    text-align: left;
+
+}
+
+.button {
+
+    background-color: #2ba3ff; 
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 50%;
+    height: 34px;
+    border-radius: 12px;
+
+
+}
+
+
+.Rectangle-orange{
+    width: 100%;
+    background-color: var(--orange);
+    text-align: center;
+    color: white;
+    padding: 3% 0;
+
+
+}
+.imgcontainer {
+    min-width: 40%;
+    max-width: 75%;
+    min-height: 40%;
+    max-height: 75%;
+    width: auto;
+    height: auto;
+    text-align: center;
+    position: relative;
+    margin: 0;
+    display: block;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -20%)
+}
+
+
+
+img.avatar {
+    width: 120px; 
+    vertical-align: middle;
+}
+
+
+
+.Contrasea {
+    width: 199px;
+    height: 19px;
+    font-family: CenturyGothicPro;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--negro);
+}
+
+.Rectangle-Copy-2 {
+    width: 427px;
+    height: 34px;
+    border-radius: 8px;
+    border: solid 1px var(--brown-grey-two);
+}
+
+.Rectangle-Copy-8 {
+    width: 200px;
+    height: 34px;
+    opacity: 0.3;
+    border-radius: 17px;
+    border: solid 1px var(--orange);
+    background-color: var(--orange);
+}
+
+.Rectangle-usuario {
+    width: 80%;
+    height: 34px;
+    border-radius: 8px;
+    border: solid 1px var(--brown-grey-two);
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+

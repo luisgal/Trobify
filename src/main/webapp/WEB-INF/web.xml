@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+   version="4.0">
+    
+    <servlet>
+        <servlet-name>valUs</servlet-name>
+        <servlet-class>com.ipn.escom.isw.trobify.servlets.valUs</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Cierra</servlet-name>
+        <servlet-class>com.ipn.escom.isw.trobify.servlets.Cierra</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AddUserServlet</servlet-name>
+        <servlet-class>com.ipn.escom.isw.trobify.servlets.AddUserServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>BuscarInmuebles</servlet-name>
+        <servlet-class>com.ipn.escom.isw.trobify.servlets.BuscarInmuebles</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>valUs</servlet-name>
+        <url-pattern>/valUs</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Cierra</servlet-name>
+        <url-pattern>/Cierra</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddUserServlet</servlet-name>
+        <url-pattern>/AddUserServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BuscarInmuebles</servlet-name>
+        <url-pattern>/BuscarInmuebles</url-pattern>
+    </servlet-mapping>
+    
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

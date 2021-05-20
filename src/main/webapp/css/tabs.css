@@ -1,0 +1,80 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20-abr-2020, 19:38:46
+    Author     : lya5
+*/
+
+/*
+ CSS for the main interaction
+*/
+.tabset > input[type="radio"] {
+    position: absolute;
+    left: -200vw;
+}
+
+.tabset .tab-panel {
+    display: none;
+}
+
+.tabset > input:first-child:checked ~ .tab-panels > .tab-panel:first-child,
+.tabset > input:nth-child(3):checked ~ .tab-panels > .tab-panel:nth-child(2),
+.tabset > input:nth-child(5):checked ~ .tab-panels > .tab-panel:nth-child(3),
+.tabset > input:nth-child(7):checked ~ .tab-panels > .tab-panel:nth-child(4),
+.tabset > input:nth-child(9):checked ~ .tab-panels > .tab-panel:nth-child(5),
+.tabset > input:nth-child(11):checked ~ .tab-panels > .tab-panel:nth-child(6) {
+    display: block;
+}
+
+.tabset > label {
+    position: relative;
+    display: inline-block;
+    padding: 6px 15px 6px;
+    border: 1px solid transparent;
+    border-bottom: 0;
+    cursor: pointer;
+    font-weight: 600;
+    left: 33vw;
+    color: #979797;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.tabset > label:hover,
+.tabset > input:focus {
+   
+}
+
+.tabset > label:hover::after,
+.tabset > input:focus + label::after,
+.tabset > input:checked + label::after {
+    background: #979797;
+   
+}
+
+.tabset > input:checked + label {
+    border-color: #979797;
+    border-bottom: 1px solid #fff;
+    margin-bottom: -1px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+ 
+
+.tab-panel {
+    border-top: 1px solid #979797;
+}
+
+.tabset {
+    max-width: 90%;
+    padding-top: 12px;
+}
+
+.tabset > input[type="radio"]:checked .Oval{
+  fill: black;
+}

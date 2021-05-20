@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="273" height="47" viewBox="0 0 273 47">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" stroke="#D8D8D8" d="M8.238 13.5A7.5 7.5 0 0 0 .74 21.22l.528 18a7.5 7.5 0 0 0 7.496 7.28H265a7.5 7.5 0 0 0 7.5-7.5V21a7.5 7.5 0 0 0-7.5-7.5H8.238z"/>
+        <text fill="#6C6B70" font-family="CenturyGothicPro, Century Gothic Pro" font-size="12" transform="translate(0 1)">
+            <tspan x="8" y="31">Selecciona una o más opciones</tspan>
+        </text>
+        <text fill="#7B7B7B" font-family="FontAwesome5Free-Solid, Font Awesome 5 Free" font-size="14" font-weight="700" transform="translate(0 1)">
+            <tspan x="252.75" y="34">chevron-down</tspan>
+        </text>
+        <text fill="#FFF" font-family="CenturyGothicPro, Century Gothic Pro" font-size="12" transform="translate(0 1)">
+            <tspan x="0" y="9">Unidad de Negocio</tspan>
+        </text>
+    </g>
+</svg>
